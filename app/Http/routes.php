@@ -13,6 +13,7 @@
 
 use League\Fractal\Resource\Collection;
 use League\Fractal\Manager;
+use Carbon\Carbon;
 
 $transformer = function ($application) {
     return [
@@ -21,8 +22,8 @@ $transformer = function ($application) {
 	    'processed' => is_null($application->approved)? false: true,
         'approved' => is_null($application->approved)? null: !! $application->approved,
         'reason'=> $application->reason,
-        'created_at' => $application->created_at,
-        'updated_at' => $application->updated_at,
+        'created_at' => Carbon::parse($application->created_at)->toIso8601String(),
+        'updated_at' => Carbon::parse($application->updated_at)->toIso8601String(),
     ];
 };
 
