@@ -7,7 +7,6 @@
     "require": {
         "laravel/lumen-framework": "5.0.*",
         "vlucas/phpdotenv": "~1.0",
-        "dragonfire1119/cors-lumen": "dev-master",
         "league/fractal": "^0.12.0"
     },
     "require-dev": {

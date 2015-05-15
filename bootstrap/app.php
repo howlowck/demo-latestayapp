@@ -61,7 +61,8 @@ $app->singleton(
 //     // 'Illuminate\Session\Middleware\StartSession',
 //     // 'Illuminate\View\Middleware\ShareErrorsFromSession',
 //     // 'Laravel\Lumen\Http\Middleware\VerifyCsrfToken',
-     'Dragonfire1119\Cors\Middleware\CorsMiddleware',
+//     'Dragonfire1119\Cors\Middleware\CorsMiddleware',
+    'App\Http\Middleware\CorsMiddleware'
  ]);
 
 // $app->routeMiddleware([
@@ -80,7 +81,7 @@ $app->singleton(
 */
 
 // $app->register('App\Providers\AppServiceProvider');
-$app->register('Dragonfire1119\Cors\Providers\CorsServiceProvider');
+//$app->register('Dragonfire1119\Cors\Providers\CorsServiceProvider');
 
 /*
 |--------------------------------------------------------------------------

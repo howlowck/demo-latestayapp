@@ -1,54 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c7093968b9aa43eba36a38136f65c221",
+    "hash": "b4728a227005986d3f81e3bc9898428d",
     "packages": [
-        {
-            "name": "asm89/stack-cors",
-            "version": "0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asm89/stack-cors.git",
-                "reference": "2d77e77251a434e4527315313a672f5801b29fa2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asm89/stack-cors/zipball/2d77e77251a434e4527315313a672f5801b29fa2",
-                "reference": "2d77e77251a434e4527315313a672f5801b29fa2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/http-foundation": "~2.1",
-                "symfony/http-kernel": "~2.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Asm89\\Stack": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
-                }
-            ],
-            "description": "Cross-origin resource sharing library and stack middleware",
-            "homepage": "https://github.com/asm89/stack-cors",
-            "keywords": [
-                "cors",
-                "stack"
-            ],
-            "time": "2014-07-28 07:22:35"
-        },
         {
             "name": "danielstjules/stringy",
             "version": "1.9.0",
@@ -171,53 +128,6 @@
                 "string"
             ],
             "time": "2014-12-20 21:24:13"
-        },
-        {
-            "name": "dragonfire1119/cors-lumen",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dragonfire1119/cors-lumen.git",
-                "reference": "ce074a3e7ba19ae24a560d3066a636b61e1419f5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dragonfire1119/cors-lumen/zipball/ce074a3e7ba19ae24a560d3066a636b61e1419f5",
-                "reference": "ce074a3e7ba19ae24a560d3066a636b61e1419f5",
-                "shasum": ""
-            },
-            "require": {
-                "asm89/stack-cors": "0.2.x",
-                "illuminate/support": "~5.0.17",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dragonfire1119\\Cors\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "dragonfire1119"
-                }
-            ],
-            "description": "Cross-origin resource sharing (CORS) middleware & ServiceProvider for Lumen micro-framework.",
-            "homepage": "https://github.com/dragonfire1119/cors-lumen",
-            "keywords": [
-                "cors",
-                "corslumen",
-                "cross-origin",
-                "laravel",
-                "lumen",
-                "lumencors",
-                "preflight"
-            ],
-            "time": "2015-04-30 07:07:57"
         },
         {
             "name": "illuminate/auth",
@@ -3443,9 +3353,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "dragonfire1119/cors-lumen": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
