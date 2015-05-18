@@ -23,8 +23,8 @@ $transformer = function ($application) {
 	    'processed' => is_null($application->approved)? false: true,
         'approved' => is_null($application->approved)? null: !! $application->approved,
         'reason'=> $application->reason,
-        'created_at' => Carbon::parse($application->created_at)->toIso8601String(),
-        'updated_at' => Carbon::parse($application->updated_at)->toIso8601String(),
+        'created_at' => Carbon::parse($application->created_at)->toW3cString(),
+        'updated_at' => Carbon::parse($application->updated_at)->toW3cString(),
     ];
 };
 
