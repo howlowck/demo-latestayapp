@@ -1,1 +1,1 @@
-#PHP[tek] LateStay Demo API
+LateStay Demo API
